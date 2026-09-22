@@ -34,7 +34,7 @@
     "APP_ENV": "production",
     "APP_DEBUG": "false",
     "APP_KEY": "base64:bh5APXFRG0vCjxHzjTF2gTmugCaUBPmbjyXLiira7RU=",
-    "APP_URL": "https://caterflow.vercel.app",
+    "APP_URL": "https://caterflow-chi.vercel.app",
     "DB_CONNECTION": "sqlite",
     "DB_DATABASE": "/tmp/database.sqlite",
     "VIEW_COMPILED_PATH": "/tmp/storage/framework/views",
