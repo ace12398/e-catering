@@ -32,7 +32,7 @@
   ],
   "env": {
     "APP_ENV": "production",
-    "APP_DEBUG": "true",
+    "APP_DEBUG": "false",
     "APP_KEY": "base64:bh5APXFRG0vCjxHzjTF2gTmugCaUBPmbjyXLiira7RU=",
     "APP_URL": "https://caterflow.vercel.app",
     "DB_CONNECTION": "sqlite",
@@ -40,6 +40,7 @@
     "VIEW_COMPILED_PATH": "/tmp/storage/framework/views",
     "SESSION_DRIVER": "cookie",
     "CACHE_STORE": "array",
-    "LOG_CHANNEL": "stderr"
+    "LOG_CHANNEL": "stderr",
+    "FILESYSTEM_DISK": "local"
   }
 }

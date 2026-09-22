@@ -2,8 +2,8 @@
 vendor/
 node_modules/
 
-# Bootstrap cache (stale dev providers like PailServiceProvider will cause 500 errors)
-bootstrap/cache/*.php
+# NOTE: bootstrap/cache/services.php and bootstrap/cache/packages.php MUST be deployed
+# Do NOT add bootstrap/cache/*.php here — those files are required for Laravel to boot
 
 # Storage (logs, compiled views, sessions - writable dirs handled in /tmp)
 storage/logs/
