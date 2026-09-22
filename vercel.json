@@ -32,7 +32,7 @@
   ],
   "env": {
     "APP_ENV": "production",
-    "APP_DEBUG": "false",
+    "APP_DEBUG": "true",
     "APP_KEY": "base64:bh5APXFRG0vCjxHzjTF2gTmugCaUBPmbjyXLiira7RU=",
     "APP_URL": "https://caterflow.vercel.app",
     "DB_CONNECTION": "sqlite",
