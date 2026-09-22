@@ -1,0 +1,26 @@
+# Dependencies (installed by vercel-php runtime via composer)
+vendor/
+node_modules/
+
+# Bootstrap cache (stale dev providers like PailServiceProvider will cause 500 errors)
+bootstrap/cache/*.php
+
+# Storage (logs, compiled views, sessions - writable dirs handled in /tmp)
+storage/logs/
+storage/framework/cache/
+storage/framework/sessions/
+storage/framework/views/
+storage/framework/testing/
+
+# Git
+.git/
+
+# Dev/test files
+tests/
+scratch/
+*.log
+
+# Local dev artifacts
+.phpunit.result.cache
+JALANKAN_WEBSITE.bat
+PETUNJUK_KLIEN.txt

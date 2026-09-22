@@ -16,6 +16,16 @@ foreach ($dirs as $dir) {
     }
 }
 
+// Clear stale bootstrap cache to prevent dev-only providers (e.g. PailServiceProvider)
+// from being loaded when composer install --no-dev has removed them.
+$cacheDir = __DIR__ . '/../bootstrap/cache';
+foreach (['packages.php', 'services.php'] as $cacheFile) {
+    $path = $cacheDir . '/' . $cacheFile;
+    if (file_exists($path)) {
+        @unlink($path);
+    }
+}
+
 // Ensure SQLite database exists in writable /tmp directory
 $tmpDb = '/tmp/database.sqlite';
 $srcDb = __DIR__ . '/../database/seed_database.sqlite';
