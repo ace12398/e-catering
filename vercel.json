@@ -1,5 +1,9 @@
 {
   "version": 2,
+  "framework": null,
+  "buildCommand": "npm install && npm run build",
+  "outputDirectory": "public",
+  "installCommand": "composer install --no-dev --optimize-autoloader --no-interaction",
   "functions": {
     "api/index.php": {
       "runtime": "vercel-php@0.7.3"
@@ -29,9 +33,9 @@
   ],
   "env": {
     "APP_ENV": "production",
-    "APP_DEBUG": "true",
+    "APP_DEBUG": "false",
     "APP_KEY": "base64:bh5APXFRG0vCjxHzjTF2gTmugCaUBPmbjyXLiira7RU=",
-    "APP_URL": "https://e-catering.vercel.app",
+    "APP_URL": "https://caterflow.vercel.app",
     "DB_CONNECTION": "sqlite",
     "DB_DATABASE": "/tmp/database.sqlite",
     "VIEW_COMPILED_PATH": "/tmp/storage/framework/views",
