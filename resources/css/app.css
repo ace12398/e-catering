@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-slate-50 text-slate-800 antialiased font-sans dark:bg-slate-900 dark:text-slate-100;
+    }
+}
+
+/* Custom Drag and Drop Visual Target Animations */
+.drag-handle {
+    cursor: grab;
+}
+
+.drag-handle:active {
+    cursor: grabbing;
+}
+
+.sortable-ghost {
+    @apply opacity-40 border-2 border-dashed border-brand-500 scale-95 transition-all duration-200;
+}
+
+.sortable-chosen {
+    @apply shadow-drag scale-[1.02] border-brand-500 z-50;
+}

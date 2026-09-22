@@ -1,0 +1,38 @@
+======================================================================
+     PETUNJUK PENGGUNAAN APLIKASI WEB E-CATERING ENTERPRISE
+======================================================================
+
+Selamat! Aplikasi E-Catering Anda siap digunakan.
+
+CARA MENJALANKAN APLIKASI (SANGAT MUDAH):
+
+1. Pastikan aplikasi XAMPP sudah terinstall di laptop/PC Anda, 
+   dan klik "Start" pada Apache dan MySQL di XAMPP Control Panel.
+
+2. Klik ganda (Double-Click) file:
+   👉  JALANKAN_WEBSITE.bat
+
+3. Browser Google Chrome / Edge akan otomatis terbuka di alamat:
+   👉  http://127.0.0.1:8000
+
+----------------------------------------------------------------------
+AKUN DEMO UNTUK LOGIN:
+----------------------------------------------------------------------
+
+1. ADMINISTRATOR (Akses Penuh Seluruh Modul System)
+   Email    : admin@caterflow.co.id
+   Password : admin123
+
+2. CUSTOMER / PELANGGAN (Pemesanan & Checkout)
+   Email    : customer@caterflow.co.id
+   Password : password123
+
+3. MANAGER (Laporan Eksekutif & BI Analytics)
+   Email    : manager@caterflow.co.id
+   Password : manager123
+
+----------------------------------------------------------------------
+Buku Panduan Penggunaan Lengkap (PDF/Markdown) tersedia di file:
+👉  laporan_sistem_ecatering.md  (Panduan Akademis & Sidang)
+👉  panduan_klien_ecatering.md  (Panduan Penggunaan Klien)
+======================================================================
