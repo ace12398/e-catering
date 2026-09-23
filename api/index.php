@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 // Prepare writable storage directories in Vercel Serverless Environment (/tmp)
 $tmpStorage = '/tmp/storage';
@@ -7,6 +7,7 @@ $dirs = [
     $tmpStorage . '/framework/sessions',
     $tmpStorage . '/framework/cache',
     $tmpStorage . '/framework/testing',
+    $tmpStorage . '/app/public',
     $tmpStorage . '/logs',
 ];
 

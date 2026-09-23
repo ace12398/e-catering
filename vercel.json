@@ -38,7 +38,7 @@
     "DB_CONNECTION": "sqlite",
     "DB_DATABASE": "/tmp/database.sqlite",
     "VIEW_COMPILED_PATH": "/tmp/storage/framework/views",
-    "SESSION_DRIVER": "cookie",
+    "SESSION_DRIVER": "database",
     "CACHE_STORE": "array",
     "LOG_CHANNEL": "stderr",
     "FILESYSTEM_DISK": "local"
